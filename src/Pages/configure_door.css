@@ -1,0 +1,196 @@
+.configure_door_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: var(--font-family);
+    width: 100%;
+    height: auto;
+}
+.nav_three{
+    width: 100%;
+    height: 48px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:var(--header-bg-text);
+}
+.nav_three img{
+    width: 24px;
+    height: 24px;
+}
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.back h2{
+    width: 160px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--primary-text);
+    text-align: center;
+}
+.back h3{
+    color: var(--btn-border);
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: center;
+}
+.back button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_container{
+    gap: 16px;
+}
+.layout,.window,.track,.other{
+    width: 928px;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    flex-direction: column;
+    border-radius: 4px;
+    background: var(--primary-text);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+
+}
+.layout{
+    height: 436px;
+}
+.window{
+    height: 256px;
+}
+.track{
+    height: 376px;
+}
+.layout h1,.window h1,.track h1,.other h1{
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding: 12px 12px 0px 24px;
+    background-color:var(--btn-border);
+    color: var(--header-bg-text);
+}
+.input{
+    width: 100%;
+    display: flex;
+    font-family: var(--font-family);
+    align-items: center;
+    justify-content: space-between;
+}
+.input [type='checkbox'] {
+    accent-color: var(--button-bg-text);
+}
+#inputState{
+    width: 448px;
+    height: 44px;
+}
+.inner_window,.inner_layout,.inner_track,.inner_other{
+    width: 688px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+.inner_layout label,.inner_window label,.inner_track label,.inner_other label{
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: var(--header-bg-text);
+}
+.inner_layout option,.inner_window option,.inner_track option,.inner_other option{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: var(--secondary-text);
+}
+.input-check-box{
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.inputbox{
+    width: 211px;
+    height: 44px;
+}
+.other{
+    height: 681px;
+}
+.checkbox_container{
+    width: 235px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 124px;
+    gap: 20px;
+    color: #2A292A;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.add_to_cart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 928px;
+    height: 64px;
+    border-radius: 4px;
+    border: 1px solid var(--btn-border);
+    background: var(--primary-text);
+
+}
+.add_to_cart button{
+    width: 126px;
+    height: 44px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #66332B;
+    color: var(--primary-text);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.add_to_cart #btn-one{
+    width: 97px;
+    background-color: transparent;
+    color: var( --button-bg-text);
+    border: 1px solid var( --button-bg-text);
+}
+.width,.height{
+    width: 448px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:16px;
+}
+.input_size{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+}
+#inputwidth,#inputheight{
+    width: 160px;
+    height: 44px;
+    gap: 16px;
+}

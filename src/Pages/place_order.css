@@ -1,0 +1,326 @@
+.place_order_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_container{
+    max-width: 928px;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    margin-top: 8px;
+    gap: 8px;
+    background: var(--bg-color);
+}
+.one_container,.two_container{
+    border-radius: 4px;
+    background: var(--primary-text);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.one_container{
+    width: 100%;
+    padding: 24px 24px;
+    height: 325px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.one_container h1{
+    width: 650px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    color: var(--header-bg-text);
+}
+.one_container h3{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: var(--header-text);
+}
+.two_container{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 8px;
+}
+.inner1_one,.inner1_two{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inner1_one button{
+    width: 44px;
+    height: 44px;
+    border-radius: 2.8px;
+    border: 0.7px solid var(--header-text);
+    background: var(bg-color);
+    color: var(--header-bg-text);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+.inner1_one button#number{
+    width: 66px;
+}
+.add_product,.img{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.coupon,.price_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.coupon h1{
+    width: 214px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    font-family: var(--font-family);
+    color: #17A85F;
+}
+.img h2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var(--button-bg-text);
+}
+.inner1_two button{
+    width: 219px;
+    height: 44px;
+    border: 1px solid var(--btn-border);
+    background-color: var(--primary-text);
+    color: var(--button-bg-text);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.price_details h1{
+    width: 149px;
+    font-family: var(--font-family);
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+.price_details h2{
+    color: var(--button-bg-text);
+    text-align: right;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.inner2_one,.inner2_two{
+    width: 100%;
+    height: 293px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-size: 16px;
+}
+.inner2_two{
+    padding: 24px;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.date,.order_no{
+    width: 100%;
+    height: 141px;
+    padding: 23px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 9px;
+    color: var(--header-bg-text);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.date input,.order_no input{
+    border-radius: 4px;
+    border: 1px solid var(--header-text);
+    background: var(--primary-text);
+    width: 413px;
+    height: 43.953px;
+}
+.date h3,.order_no h3{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--header-bg-text);
+    font-family: var(--font-family);
+}
+.bill{
+    padding-bottom: 0px;
+    width: 100%;
+    gap: 11px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bill h4{
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: var(--header-bg-text);
+    font-weight: 500;
+}
+.bill img{
+    width: 412px;
+}
+.sub_total,.energy,.tax,.total{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.sub_total h4,.energy h4 ,.tax h4,.total h4 {
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: var(--secondary-text);
+    font-weight: 400;
+}
+.sub_total h5,.energy h5 ,.tax h5,.total h5 {
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: #2A292A;
+}
+.inner2_three h4{
+    width: 403px;
+    color: var(--header-text);
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+.inner2_three label{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary-text);
+}
+.inner2_three img{
+    width: 412px;
+}
+.three_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 4px;
+    padding: 24px;
+    background: var(--primary-text);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.inner3_one{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 420px;
+    width: 100%;
+}
+.inner3_one h1{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.inner3_two{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    justify-content: space-between;
+}
+.billing h2,.shipping h2{
+    font-size: 16px;
+    color: var(--secondary-text);
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.billing h3,.shipping h3{
+    font-size: 16px;
+    width: 272px;
+    color: var(--secondary-text);
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+.inner3_two button{
+    border: none;
+    width: 92px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--button-bg-text);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.four_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 64px;
+    border-radius: 4px;
+    padding: 24px;
+    background: var(--primary-text);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+.inner4_one h2{
+    font-size: 10px;
+    color: var(--secondary-text);
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.inner4_one h3{
+    font-size: 20px;
+    color: var(--secondary-text);
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+.inner4_two button{
+    width: 145px;
+    height: 43.953px;
+    border-radius: 4px;
+    background: var( --button-bg-text);
+    border: none;
+    color: var(--primary-text);
+
+}
+.inner4_two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.inner4_two button#outline{
+    border:1px solid var( --button-bg-text);
+    color: var( --button-bg-text);
+    background-color: transparent;
+}
+input [type='checkbox'] {
+    accent-color: var(--button-bg-text);
+}

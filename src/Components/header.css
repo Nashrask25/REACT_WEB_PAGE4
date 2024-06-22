@@ -1,0 +1,29 @@
+.container_header{
+    width: 100%;
+    height: 64px;
+    padding:0px 16px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1052px;
+    background-color: black;
+}
+.container_header img{
+    width: 130px;
+    height: 40px;
+}
+.container_header ul{
+    width: 226px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 10px;
+    margin: 0px;  
+}
+.container_header ul li img{
+    width: 28px;
+    height: 28px;
+}

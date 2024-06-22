@@ -1,0 +1,31 @@
+:root{
+  --font-family:"Roboto", sans-serif;;
+  --header-bg-text:#34495E;
+  --primary-text:#FFFFFF;
+  --table-text:#212931;
+  --secondary-text:#2A292A;
+  --header-text:#8894A0;
+  --btn-border:#E4E4E4;
+  --bg-color:#F6F8FA;
+  --button-bg-text:#66332B;
+  --button-text-border:#E4E4E4;
+  --placeholder:#8894A0;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: var(--font-family);
+}
+body,
+html{
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.App{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
